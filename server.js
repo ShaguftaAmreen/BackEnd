@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const { connect, config } = require("./config/config");
-const signUpModel = require("./models/signup");
+const signUpModel = require("./models/signupSchema");
 const authenticateToken = require("./middleware/auth");
 const customerRouter = require("./routes/customer.routes");
 
